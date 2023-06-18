@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- divinectorweb.com -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About PTC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+	<!-- font awesome cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <style>
+        body,html{
+   height: 100%;
+}
+body {
+   background: white;   
+   font-family: 'Montserrat', sans-serif;
+ }
+ .wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 12%;
+ }
+ .user-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 40px;
+	width: 650px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+ 
+.user-card:before {
+   content: '';
+   position: absolute;
+   height: 300%;
+   width: 173px;
+   background: #262626;
+   top: -60px;
+   left: -125px;
+   z-index: 0;
+   transform: rotate(17deg);
+ }
+ 
+ .user-card-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+   z-index: 3;
+ }
+ 
+ .user-card-img img {
+   width: 150px;
+   height: 200px;
+   object-fit: cover;
+ }
+ 
+ .user-card-info {
+   text-align: center;
+ }
+ 
+ .user-card-info h2 {
+   font-size: 24px;
+   margin: 0;
+   margin-bottom: 10px;
+   font-family: 'Bebas Neue', sans-serif;
+ }
+ 
+ .user-card-info p {
+   font-size: 14px;
+   margin-bottom: 2px;
+ }
+ .user-card-info p span {
+	font-weight: 700;
+	margin-right: 10px;
+}
+ @media only screen and (min-width: 768px) {
+   .user-card {
+     flex-direction: row;
+     align-items: flex-start;
+   }   
+   .user-card-img {
+     margin-right: 20px;
+     margin-bottom: 0;
+   }
+ 
+   .user-card-info {
+     text-align: left;
+   }
+ }
+ .a{
+	color: black;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+ @media (max-width: 767px){
+   .wrapper{
+      padding-top: 3%;
+   }
+   .user-card:before {
+      width: 300%;
+      height: 200px;
+      transform: rotate(0);
+   }
+   .user-card-info h2 {
+      margin-top: 25px;
+      font-size: 35px;
+   }
+   .user-card-info p span {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 18px;
+   }
+ }
+
+
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid ">
+		<div class="row " >
+			<div class="col-md-12 navbar" >
+                <img src="images/P-removebg-preview.png" width="150" height="150" class="d-inline-block align-top ml-5" alt="">
+				<ul class="nav">
+					<li class="nav-item "><a  href="home.html" class="nav-link text-dark">Home</a></li>
+					<li class="nav-item active"><a href="about.html" class="nav-link text-dark a">About Us</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link text-dark">Gallery</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link text-dark a">Contact</a></li>
+					<li class="nav-item"><a href="services.html" class="nav-link text-dark a">Services</a></li>
+				</ul>
+			</div>
+      </div>
+    </div>
+    <div class="container mt-5">
+    <div class="wrapper mt-5">
+        <div class="user-card">
+            <div class="user-card-img">
+              <img src="images/WhatsApp Image 2023-06-17 at 9.10.30 AM.jpeg" alt="">
+            </div>
+            <div class="user-card-info">
+              <h2>Jason Walker</h2>
+              <p><span>Email:</span> pramodmahi@gmail.com</p>
+              <p><span>Location:</span>Chauri Bazaar Parsipur S.R.N Bhadohi</p>
+              <p><span>Occupation:</span>Founder of Pramod Travel Company</p>
+              <p><span>About me:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5">
+  <div class="about-section">
+    <h1>Pramod Travel Company</h1>
+    <p>Some text about who we are and what we do.</p>
+    <p>Resize the browser window to see that this page is responsive by the way.</p>
+  </div>
+  
+  <h2 style="text-align:center ">Our Team</h2>
+  <div class="row mt-5">
+    <div class="column">
+      <div class="card">
+        <img src="images/satyam.jpeg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>Sundaram Pathak</h2>
+          <p class="title">Managing Director</p>
+          <p>Make your Journey beautiful with us</p>
+          <p>mike@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="images/shivam-removebg-preview.png" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Shivam Pathak</h2>
+          <p class="title">Director</p>
+          <p>Always ready to make yout journey successful</p>
+          <p>john@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container mt-5" style="background-color:black;">
+      <div class="row">
+        <div class="col-md-3 py-4 mx-4">
+        <h3 class="font-weight-bold font1">Quick Links</h3>
+        <ul>
+          <li><a class="font-weight-bold " href="home.html">Home </a></li>
+          <li><a class="font-weight-bold " href="about.html">About</a></li>
+          <li><a class="font-weight-bold " href="services.html">Services</a></li>
+          <li><a class="font-weight-bold " href="contact.html">Contact</a></li>
+          <li><a class="font-weight-bold " href="gallery.html">Gallery</a></li>
+        </ul>
+        </div>
+        <div class="col-md-3 py-4 mx-4">
+        <h3 class="font-weight-bold font1">Address</h3>
+        <p class="font1">Main Market, Narayanpur, Mirzapur, Uttar Pradesh 231305<br> 91-8933829384 <br>
+        Email:  heavenbeauty@gmail.com <br>Heaven Ho-91-8933829384 <br> Heaven Narayanpur 91-8933829384 </p>
+        </div>
+        <div class="col-md-3 py-4 mx-4">
+        <h3 class="font-weight-bold font1">Connect with us</h3>
+        </div>
+      </div>
+    </div>
+    <footer class="cd__credit">Author: Anchal - Distributed By: <a title="Free web design code & scripts" href="#"
+			target="_blank">Anchalsingh</a></footer>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+	<!-- Script JS -->
+	<script src="./js/script.js"></script>
+</body>
+</html>
