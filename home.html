@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>PTC</title>
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<!-- jquery cdn -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/demo.css">
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 navbar">
+				<!-- <a href="index.html" class="logo navbar-brand text-white offset-md-2">Pramod Travels Agency</a> -->
+				<img src="images/P-removebg-preview.png" width="150" height="150" class="d-inline-block align-top ml-5"
+					alt="">
+				<ul class="nav">
+					<li class="nav-item active"><a href="#" class="nav-link text-dark ">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link text-dark">About Us</a></li>
+					<li class="nav-item"><a href="gallery.html" class="nav-link text-dark">Gallery</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link text-dark">Contact</a></li>
+					<li class="nav-item"><a href="services.html" class="nav-link text-dark">Services</a></li>
+				</ul>
+			</div>
+
+			<!-- slider banner	 -->
+
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="info">
+							<h1>Contact Us</h1>
+							<p>Make Your Journey Beautiful with us</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="info">
+							<h1>Pramod Travels Company</h1>
+							<p>Always available to make your jouney Beautiful</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="info">
+							<h1>Book Your Trip</h1>
+							<p>The journey of a thousand miles begins with a single step, START Booking</p>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid mt-5">
+		<main class="cd__main ">
+			<!-- Start DEMO HTML (Use the following code into your project)-->
+			<h2 class="h1-responsive font-weight-bold text-center my-5">Book your Trip</h2>
+			<div class="main">
+		<main class="app mt-5">
+			<div class="screen-wrap">
+				<section class="screen-home">
+					<div class="screen-home__form-wrap">
+						<div class="screen-home__form">
+							<form>
+								<div id="formdetail">
+									<div class="screen-home__location">
+										<div class="lable">
+											<figure class="icon"><img src="https://i.ibb.co/KwnYdXN/location.png">
+											</figure>
+											<span class="text">Location Details</span>
+										</div>
+										<div class="input-wrap">
+											<div class="inside-wrap">
+												<div class="rotate-btn">
+													<figure>
+														<img src="https://i.ibb.co/HPBrQkn/rotate-btn.png">
+													</figure>
+												</div>
+												<div class="from">
+													<span class="inside-lable">From</span>
+													<input class="input" type="" name="" value="Bangalore">
+												</div>
+												<div class="to">
+													<span class="inside-lable">To</span>
+													<input class="input" type="" name="" value="Chennai">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="screen-home__date">
+										<div class="lable">
+											<figure class="icon"><img src="https://i.ibb.co/7N5zdnc/calendar.png">
+											</figure>
+											<span class="text">Date Details</span>
+										</div>
+										<div class="input-wrap">
+											<div class="inside-wrap">
+												<div class="onward">
+													<input class="input" type="" name="" value="10">
+													<div class="mon-day">
+														<span class="month">Dec</span>
+														<span class="day">Wed</span>
+													</div>
+												</div>
+												<div class="return">
+													<input class="input" type="" name="" value="12">
+													<div class="mon-day">
+														<span class="month">Dec</span>
+														<span class="day">Fri</span>
+													</div>
+												</div>
+											</div>
+											<div class="inside-lable-wrap">
+												<div class="inside-lable-col">
+													<span class="inside-lable">Onward</span>
+												</div>
+												<div class="inside-lable-col">
+													<span class="inside-lable">Return</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="screen-home__submit-wrap">
+									<span class="line"></span>
+									<div class="screen-home__bus-page" id="buspage">
+										<div class="screen-home__inside-wave">
+
+										</div>
+										<figure class="screen-home__bus-arrow-wrap">
+											<!--                     <span class="screen-home__btn-blink"></span> -->
+											<img src="https://i.ibb.co/nQ4khG8/arrow.png">
+										</figure>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="screen-home__recent-search">
+							<div class="lable">
+								<figure class="icon"><img src="https://i.ibb.co/dM8cwj6/recent-search.png"></figure>
+								<span class="text">Recent search</span>
+							</div>
+							<div class="screen-home__rs-wrap">
+								<ul class="screen-home__rs-row">
+									<li class="screen-home__rs-col">
+										<div class="screen-homers-from-to">
+											<span>Chennai</span>
+											<span class="screen-home__rs-arrow"></span>
+											<span>Bangalore</span>
+										</div>
+										<div class="screen-home__rs-date">05 / 12 / 2019</div>
+									</li>
+									<li class="screen-home__rs-col">
+										<div class="screen-homers-from-to">
+											<span>Chennai</span>
+											<span class="screen-home__rs-arrow"></span>
+											<span>Bangalore</span>
+										</div>
+										<div class="screen-home__rs-date">05 / 12 / 2019</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="screen-bus">
+					<div class="screen-bus__location-filter-wrap">
+						<div class="screen-bus__location-filter-row">
+							<div class="screen-bus__location">
+								<div class="screen-bus__location-row">
+									<span class="screen-bus__location-col">Bangalore</span>
+									<span class="screen-home__rs-arrow"></span>
+									<span class="screen-bus__location-col">Chennai</span>
+								</div>
+								<div class="screen-bus__date-row">
+									<span>Wed, 10/ 12/ 2019</span> - <span>Fri, 12/ 12/ 2019</span>
+								</div>
+							</div>
+							<div class="screen-bus__filter">
+								<figure>
+									<img src="https://i.ibb.co/ZJt9tkM/filter.png">
+								</figure>
+							</div>
+						</div>
+					</div>
+					<div class="screen-bus__travels-wrap">
+						<div class="screen-bus__travels-row">
+							<div class="screen-bus__travels-col">
+								<div class="screen-bus__name-time-seat">
+									<div class="screen-bus__name-wrap">
+										<span class="screen-bus__name">KPN Travels</span>
+										<span class="screen-bus__type">Non A/C</span>
+									</div>
+									<div class="screen-bus__time-wrap">
+										<div class="screen-bus__time">
+											<div class="screen-bus__start">13:40</div>
+											<div class="screen-bus__time-arrow-wrap">
+												<span class="screen-bus__time-arrow"></span>
+											</div>
+											<div class="screen-bus__end">15:40</div>
+										</div>
+										<div class="screen-bus__hrs">
+											<span>2 hrs</span>
+										</div>
+									</div>
+									<div class="screen-bus__seat-wrap">
+										<div>
+											<span class="screen-bus__count">26</span>
+											Seats Available
+										</div>
+									</div>
+								</div>
+								<div class="screen-bus__rating-price">
+									<div class="screen-bus__rating-price-row">
+										<div class="screen-bus__rating">
+											<ul class="screen-bus__rating-row">
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png"></figure>
+												</li>
+											</ul>
+										</div>
+										<div class="screen-bus__price">
+											<span><span>&#8377;</span> 1220</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="screen-bus__travels-col">
+								<div class="screen-bus__name-time-seat">
+									<div class="screen-bus__name-wrap">
+										<span class="screen-bus__name">SRS Travels</span>
+										<span class="screen-bus__type">A/C Sleeper</span>
+									</div>
+									<div class="screen-bus__time-wrap">
+										<div class="screen-bus__time">
+											<div class="screen-bus__start">12:00</div>
+											<div class="screen-bus__time-arrow-wrap">
+												<span class="screen-bus__time-arrow"></span>
+											</div>
+											<div class="screen-bus__end">15:00</div>
+										</div>
+										<div class="screen-bus__hrs">
+											<span>3 hrs</span>
+										</div>
+									</div>
+									<div class="screen-bus__seat-wrap">
+										<div>
+											<span class="screen-bus__count">13</span>
+											Seats Available
+										</div>
+									</div>
+								</div>
+								<div class="screen-bus__rating-price">
+									<div class="screen-bus__rating-price-row">
+										<div class="screen-bus__rating">
+											<ul class="screen-bus__rating-row">
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png"></figure>
+												</li>
+											</ul>
+										</div>
+										<div class="screen-bus__price">
+											<span><span>&#8377;</span> 800</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="screen-bus__travels-col">
+								<div class="screen-bus__name-time-seat">
+									<div class="screen-bus__name-wrap">
+										<span class="screen-bus__name">Royal Travels</span>
+										<span class="screen-bus__type">A/C Sleeper</span>
+									</div>
+									<div class="screen-bus__time-wrap">
+										<div class="screen-bus__time">
+											<div class="screen-bus__start">22:00</div>
+											<div class="screen-bus__time-arrow-wrap">
+												<span class="screen-bus__time-arrow"></span>
+											</div>
+											<div class="screen-bus__end">1:00</div>
+										</div>
+										<div class="screen-bus__hrs">
+											<span>3 hrs</span>
+										</div>
+									</div>
+									<div class="screen-bus__seat-wrap">
+										<div>
+											<span class="screen-bus__count">20</span>
+											Seats Available
+										</div>
+									</div>
+								</div>
+								<div class="screen-bus__rating-price">
+									<div class="screen-bus__rating-price-row">
+										<div class="screen-bus__rating">
+											<ul class="screen-bus__rating-row">
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png"></figure>
+												</li>
+											</ul>
+										</div>
+										<div class="screen-bus__price">
+											<span><span>&#8377;</span> 840</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="screen-bus__travels-col">
+								<div class="screen-bus__name-time-seat">
+									<div class="screen-bus__name-wrap">
+										<span class="screen-bus__name">MRN Travels</span>
+										<span class="screen-bus__type">Non A/C</span>
+									</div>
+									<div class="screen-bus__time-wrap">
+										<div class="screen-bus__time">
+											<div class="screen-bus__start">16:45</div>
+											<div class="screen-bus__time-arrow-wrap">
+												<span class="screen-bus__time-arrow"></span>
+											</div>
+											<div class="screen-bus__end">18:45</div>
+										</div>
+										<div class="screen-bus__hrs">
+											<span>4 hrs</span>
+										</div>
+									</div>
+									<div class="screen-bus__seat-wrap">
+										<div>
+											<span class="screen-bus__count">19</span>
+											Seats Available
+										</div>
+									</div>
+								</div>
+								<div class="screen-bus__rating-price">
+									<div class="screen-bus__rating-price-row">
+										<div class="screen-bus__rating">
+											<ul class="screen-bus__rating-row">
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png"></figure>
+												</li>
+											</ul>
+										</div>
+										<div class="screen-bus__price">
+											<span><span>&#8377;</span> 550</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="screen-bus__travels-col">
+								<div class="screen-bus__name-time-seat">
+									<div class="screen-bus__name-wrap">
+										<span class="screen-bus__name">Indian Travels</span>
+										<span class="screen-bus__type">A/C Sleeper</span>
+									</div>
+									<div class="screen-bus__time-wrap">
+										<div class="screen-bus__time">
+											<div class="screen-bus__start">10:40</div>
+											<div class="screen-bus__time-arrow-wrap">
+												<span class="screen-bus__time-arrow"></span>
+											</div>
+											<div class="screen-bus__end">15:40</div>
+										</div>
+										<div class="screen-bus__hrs">
+											<span>5 hrs</span>
+										</div>
+									</div>
+									<div class="screen-bus__seat-wrap">
+										<div>
+											<span class="screen-bus__count">13</span>
+											Seats Available
+										</div>
+									</div>
+								</div>
+								<div class="screen-bus__rating-price">
+									<div class="screen-bus__rating-price-row">
+										<div class="screen-bus__rating">
+											<ul class="screen-bus__rating-row">
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png"></figure>
+												</li>
+												<li>
+													<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png"></figure>
+												</li>
+											</ul>
+										</div>
+										<div class="screen-bus__price">
+											<span><span>&#8377;</span> 300</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- <section class="screen-bottom mt-5">
+				<div>
+					<ul class="mt-5">
+						<li>
+							<figure class="mt-5">
+								<img src="https://i.ibb.co/n1kQzHj/home.png">
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="https://i.ibb.co/sjXwWkz/tickets.png">
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="https://i.ibb.co/5nFHJvJ/user.png">
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="https://i.ibb.co/qpb5dSj/support.png">
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="https://i.ibb.co/wNkTfWb/settings.png">
+							</figure>
+						</li>
+					</ul>
+				</div>
+			</section> -->
+		</main>
+</div>
+</main>
+
+	
+
+
+	<!-- END EDMO HTML (Happy Coding!)-->
+	</main>
+</div>
+
+
+	<div class="wrapper ">
+		<div class="user-card">
+			<div class="user-card-img">
+				<img src="images/WhatsApp Image 2023-06-17 at 9.10.30 AM.jpeg" alt="">
+			</div>
+			<div class="user-card-info">
+				<h2>Jason Walker</h2>
+				<p><span>Email:</span> pramodmahi@gmail.com</p>
+				<p><span>Location:</span>Chauri Bazaar Parsipur S.R.N Bhadohi</p>
+				<p><span>Occupation:</span>Founder of <b>Pramod Travel Company</b></p>
+				<p><span>About me:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="container-fluid mt-5">
+		<div class="about-section">
+			<h1>Pramod Travel Company</h1>
+			<p>Some text about who we are and what we do.</p>
+			<p>Pramod Travel Agency is India’s fastest growing online ticket booking platform offering bus ticket
+				booking, train ticket booking and bus rental services. AbhiBus is the official ticketing partner of
+				several State Road Transport Corporation (SRTC) operators, and you can also book tickets for your
+				favourite private travels at discounted ticket prices. Travellers can also book IRCTC train tickets
+				without any hassle-free services on AbhiBus.Pramod Travel Agency has an inventory of over 2,500+ bus
+				service partners operating scheduled buses in India. Travellers can easily view their bus schedules,
+				compare their ticket prices, and book bus tickets online directly through AbhiBus. All these buses
+				currently cover more than 100,000 bus routes with reliable transportation in India.Travellers can book
+				all types of bus booking, from Non-AC buses to Volvo AC buses on PTC Bus.</p>
+		</div>
+
+		<div class="row mt-5">
+			<div class="column">
+				<div class="card">
+					<img src="images/satyam.jpeg" alt="Mike" style="width:100%">
+					<div class="container">
+						<h2>Sundaram Pathak</h2>
+						<p class="title">Managing Director</p>
+						<p>Make your Journey beautiful with us</p>
+						<p>mike@example.com</p>
+						<p>
+							<li class="button"><a href="contact.html" class="nav-link text-light a">Contact</a></li>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="card">
+					<img src="images/shivam-removebg-preview.png" alt="John" style="width:100%">
+					<div class="container">
+						<h2>Shivam Pathak</h2>
+						<p class="title">Director</p>
+						<p>Always ready to make yout journey successful</p>
+						<p>john@example.com</p>
+						<p>
+							<li class="button"><a href="contact.html" class="nav-link text-light a">Contact</a></li>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-5">
+		<!--Section: Contact v.2-->
+		<section class="mb-5">
+
+			<!--Section heading-->
+			<h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+			<!--Section description-->
+			<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
+				contact us directly. Our team will come back to you within
+				a matter of hours to help you.</p>
+
+			<div class="row">
+
+				<!--Grid column-->
+				<div class="col-md-9 mb-md-0 mb-5">
+					<form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+						<!--Grid row-->
+						<div class="row">
+
+							<!--Grid column-->
+							<div class="col-md-6">
+								<div class="md-form mb-0">
+									<input type="text" id="name" name="name" class="form-control">
+									<label for="name" class="">Your name</label>
+								</div>
+							</div>
+							<!--Grid column-->
+
+							<!--Grid column-->
+							<div class="col-md-6">
+								<div class="md-form mb-0">
+									<input type="text" id="email" name="email" class="form-control">
+									<label for="email" class="">Your email</label>
+								</div>
+							</div>
+							<!--Grid column-->
+
+						</div>
+						<!--Grid row-->
+
+						<!--Grid row-->
+						<div class="row">
+							<div class="col-md-12">
+								<div class="md-form mb-0">
+									<input type="text" id="subject" name="subject" class="form-control">
+									<label for="subject" class="">Subject</label>
+								</div>
+							</div>
+						</div>
+						<!--Grid row-->
+
+						<!--Grid row-->
+						<div class="row">
+
+							<!--Grid column-->
+							<div class="col-md-12">
+
+								<div class="md-form">
+									<textarea type="text" id="message" name="message" rows="2"
+										class="form-control md-textarea"></textarea>
+									<label for="message">Your message</label>
+								</div>
+
+							</div>
+						</div>
+						<!--Grid row-->
+
+					</form>
+
+					<div class="text-center text-md-left">
+						<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+					</div>
+					<div class="status"></div>
+				</div>
+				<!--Grid column-->
+
+				<!--Grid column-->
+				<div class="col-md-3 text-center">
+					<ul class="list-unstyled mb-0">
+						<li><i class="fas fa-map-marker-alt fa-2x"></i>
+							<p>Chauri Bazaar Parsipur S.R.N Bhadohi Uttar Pradesh 231305</p>
+						</li>
+
+						<li><i class="fas fa-phone mt-4 fa-2x"></i>
+							<p>+ 01 234 567 89</p>
+						</li>
+
+						<li><i class="fas fa-envelope mt-4 fa-2x"></i>
+							<p>contact@mdbootstrap.com</p>
+						</li>
+					</ul>
+				</div>
+				<!--Grid column-->
+
+			</div>
+
+		</section>
+		<!--Section: Contact v.2-->
+	</div>
+
+	<div class="container mt-5" style="background-color:black;">
+		<div class="row">
+			<div class="col-md-3 py-4 mx-4">
+				<h3 class="font-weight-bold font1">Quick Links</h3>
+				<ul>
+					<li><a class="font-weight-bold " href="home.html">Home </a></li>
+					<li><a class="font-weight-bold " href="about.html">About</a></li>
+					<li><a class="font-weight-bold " href="services.html">Services</a></li>
+					<li><a class="font-weight-bold " href="contact.html">Contact</a></li>
+					<li><a class="font-weight-bold " href="gallery.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 py-4 mx-4">
+				<h3 class="font-weight-bold font1">Address</h3>
+				<p class="font1">Chauri Bazaar Parsipur S.R.N Bhadohi Uttar Pradesh 231305<br> 91-8933829384 <br>
+					Email: pramodmahi@gmail.com <br>Heaven Ho-91-8933829384 <br> Heaven Narayanpur 91-8933829384 </p>
+			</div>
+			<div class="col-md-3 py-4 mx-4">
+				<h3 class="font-weight-bold font1">Connect with us</h3>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+
+	<!-- scripts -->
+	<!-- bootstrap javascript cdn -->
+	<script type="text/javascript"
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<footer class="cd__credit">Author: Anchal - Distributed By: <a title="Free web design code & scripts" href="#"
+			target="_blank">Anchalsingh</a></footer>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+	<!-- Script JS -->
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
